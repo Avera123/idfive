@@ -10,7 +10,7 @@ get_header();
             <h1 class="larger">Capture a Stronger Supply Chain.</h1>
             <p>From basic barcode labels to enterprise-wide solutions, our team takes the time to learn about your unique business needs. Then we develop, deploy and manage cost-effective solutions that let you sleep better at night and <strong>make your customers smile.</strong></p><a href="" class="button button--inverse full-width">Ask a Question</a><a href="" class="button button--inverse full-width">Request a Quote</a><a href="" class="button button--inverse full-width">Shop Now</a>
           </div>
-        </div><img src="./assets/images/hero.jpg" alt="undefined">
+        </div><img src="<?php bloginfo('template_url'); ?>/assets/images/hero.jpg" alt="undefined">
       </div>
       <ul class="swift-slide product-slide halfway-section">
         <li class="hero product">
@@ -19,7 +19,7 @@ get_header();
               <h2 class="larger">Slide 1</h2>
               <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo.</p><a href="" class="button">Read More</a>
             </div>
-          </div><img src="./assets/images/honeywell.jpg" alt="undefined">
+          </div><img src="<?php bloginfo('template_url'); ?>/assets/images/honeywell.jpg" alt="undefined">
         </li>
         <li class="hero product">
           <div class="compartment">
