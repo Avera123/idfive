@@ -23,11 +23,11 @@
                     <h1 class="hero__title"><?php the_title(); ?></h1>
                 </div>
                 <?php the_post_thumbnail(); ?>
-<!--                <img src="./assets/images/interior.jpg" alt="undefined">-->
             </div>
             <div class="section">
                 <div class="compartment">
-                    <p class="lead-in">Lead in Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lectus arcu, euismod bibendum sapien id, faucibus viverra purus. Nullam vel metus ipsum. Praesent neque arcu, commodo a eros eget, ultrices.</p>
+                    <p class="lead-in"><?php the_field('sub_title'); ?></p>
+
                     <div class="silk-harmonica silk-harmonica--expanded silk-harmonica--solutions">
                         <header role="tab" class="silk-harmonica__header">
                             <h6>Challenge</h6>
