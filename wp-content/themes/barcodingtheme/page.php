@@ -57,7 +57,8 @@
                                     <use xlink:href="#chevron-down"></use>
                                 </svg>
                             </h5>
-                            <figure><img src="<?php bloginfo('template_url'); ?>/assets/images/surgery.jpg" alt="undefined">
+                            <figure>
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/surgery.jpg" alt="undefined">
                             </figure>
                         </header>
                         <article role="tabpanel" class="silk-harmonica__content">
